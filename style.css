@@ -25,6 +25,7 @@ form {
   color: pink;
   display: inline-block;
   margin-right: 110px;
+  font-size: 25px;
 }
 p {
   display: inline-block;
@@ -72,16 +73,7 @@ option {
 .default {
   color: rgb(185, 168, 168);
 }
-.submit-btn {
-  background-color: pink;
-  color: black;
-  width: 200px;
-  padding: 10px 10px;
-  font-size: 15px;
-  font-weight: bold;
-  border: none;
-  border-radius: 200px;
-}
+
 .signup-btn {
   background-color: pink;
   color: black;
@@ -92,6 +84,7 @@ option {
   border-radius: 200px;
   width: 200px;
 }
+
 .database {
   display: flex;
   justify-content: center;
@@ -100,7 +93,11 @@ option {
   padding: 50px 50px;
   font-family: sans-serif;
 }
-
+.submit-btn-div,
+.twodiv {
+  display: flex;
+  justify-content: center;
+}
 .remove {
   display: none;
 }
