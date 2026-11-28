@@ -1,11 +1,12 @@
 html {
-  height: 500vh;
+  height: 150vh;
 }
 body {
   display: flex;
   justify-content: center;
   margin: 0px 0px;
 }
+
 form {
   background-color: black;
   color: white;
@@ -79,8 +80,73 @@ option {
   border: none;
   border-radius: 200px;
 }
+.database {
+  display: flex;
+  justify-content: center;
+  color: grey;
+  margin-top: 10px;
+  padding: 50px 50px;
+  font-family: sans-serif;
+}
+
+.remove {
+  display: none;
+}
 /* Small phones */
 @media (max-width: 360px) {
+  html {
+    height: 0vh;
+  }
+  body {
+    margin: 0px 0px;
+    width: 440px;
+  }
+  form {
+    font-size: 15px;
+  }
+  input {
+    width: 100%;
+  }
+  h1 {
+    margin: 20px 55px;
+  }
+  .submit-btn {
+    margin: 20px 60px;
+  }
+  .check {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    margin: 0px 0px;
+    margin-right: 10px;
+  }
+  .p {
+    width: 150px;
+    margin: 0px 0px;
+  }
+  .checkbox {
+    margin: 0px 0px;
+  }
+  .checkboxx {
+    width: 290px;
+    padding-top: 3px;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+    justify-content: center;
+  }
+  .database {
+    font-size: 20px;
+    overflow: scroll;
+    white-space: nowrap;
+  }
+}
+
+/* Standard phones */
+@media (max-width: 390px) {
   html {
     height: 0vh;
   }
@@ -127,10 +193,6 @@ option {
     font-size: 11px;
     justify-content: center;
   }
-}
-
-/* Standard phones */
-@media (max-width: 390px) {
 }
 
 /* Larger phones */
